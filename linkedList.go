@@ -59,6 +59,15 @@ func (l *LinkedList) PushBack(val interface{}) {
 	}
 }
 
+// TopBack returns the last element of the linked list.
+// It returns an error if the list is empty.
+func (l *LinkedList) TopBack() (*Node, error) {
+	if l.Empty() {
+		return nil, errors.New("can't top from empty list")
+	}
+	return l.Tail, nil
+}
+
 // PopBack removes the last element of the linked list.
 // It returns an error if the list is empty.
 func (l *LinkedList) PopBack() error {
