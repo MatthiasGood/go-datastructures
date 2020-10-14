@@ -6,3 +6,4 @@ only display how to each of the data structures work internally (learning purpos
 
 For each data structure there exists a short blog post explaining more in detail how it works:
 - [Singly Linked List](https://mgood.ch/posts/2020/10/singly-linked-list-in-go/)
+- [Stack](https://mgood.ch/posts/2020/10/stack-in-go/)
